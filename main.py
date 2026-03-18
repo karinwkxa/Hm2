@@ -41,7 +41,7 @@ class Student:
             self.chill()
 
     def live_year(self):
-        for day in range(1, 11):  # можеш 365, але буде дуже довго
+        for day in range(1, 11): 
             print("Day", day)
             self.live_day()
 
