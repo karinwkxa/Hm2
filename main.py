@@ -22,22 +22,22 @@ class Student:
         print(self.name, "is resting. Energy:", self.energy)
 
     def live_day(self):
-        print("--- Day ---")
+        print("- Day -")
 
         if self.money < 50:
-            print("Not enough money → going to work")
+            print("Not enough money - going to work")
             self.work()
 
         elif self.grade < 5:
-            print("Problems with study → studying")
+            print("Problems with study- studying")
             self.study()
 
         elif self.energy < 30:
-            print("Too tired → resting")
+            print("Too tired - resting")
             self.chill()
 
         else:
-            print("Normal day → resting")
+            print("Normal day - resting")
             self.chill()
 
     def live_year(self):
@@ -46,5 +46,5 @@ class Student:
             self.live_day()
 
 
-student1 = Student("Alex", 18, 100, 100, 4)
+student1 = Student("Karina", 18, 100, 100, 4)
 student1.live_year()
